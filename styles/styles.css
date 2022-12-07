@@ -12,12 +12,24 @@ body {
     font-size: 1.25rem;
 }
 
+h1, h2 {
+    font-family: 'Alata', sans-serif;
+}
+
+/* Cake, Cookie, Bread Section's Title  */
+h2 {
+    font-size: 2rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+
 /* Navigation Bar */
 header {
     padding: 0.5rem 8rem;
     position: fixed;
     left: 0;
     right: 0;
+    background-color: white;
 }
 
 nav {
@@ -33,6 +45,7 @@ nav img {
 nav ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 nav a {
@@ -53,13 +66,12 @@ nav a {
 .hero-container {
     width: 26rem;
     position: relative;
-    top: 10rem;
+    top: 11rem;
     left: 14rem;
 }
 
 #hero-section h1  {
     font-size: 3rem;
-    font-family: 'Alata', sans-serif;
     line-height: 60px;
     margin-bottom: 1.25rem;
 }
@@ -76,4 +88,14 @@ nav a {
     background-color: rgb(96, 117, 168);
     color: rgb(255, 255, 255);
     border-radius: 25px;
+}
+
+/* Cake Section */
+#cake-section {
+    height: 43.75rem;
+    background-image: url('../images/background/background-image-2.png');
+    background-size: cover;
+    background-position: right -2.5rem bottom 0;
+    padding-right: 8rem;
+    padding-left: 8rem;
 }
