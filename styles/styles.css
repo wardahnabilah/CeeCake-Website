@@ -1,5 +1,6 @@
 /* Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 * {
     margin: 0;
@@ -8,12 +9,12 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 2rem 8rem;
+    font-size: 1.25rem;
 }
 
 /* Navigation Bar */
 header {
-    padding: 0.5rem 0;
+    padding: 0.5rem 8rem;
 }
 
 nav {
@@ -23,7 +24,7 @@ nav {
 }
 
 nav img {
-    height: 2.25rem;
+    height: 2rem;
 }
 
 nav ul {
@@ -32,7 +33,35 @@ nav ul {
 }
 
 nav a {
+    font-size: 1rem;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-left: 2rem;
+}
+
+/* Hero Section */
+#hero-section {
+    height: 43.75rem;
+    background-image: url('../images/background/background-image-1.png');
+    background-size: cover;
+    background-position: right -2.5rem bottom 0;
+}
+
+.hero-container {
+    width: 26rem;
+    position: relative;
+    top: 10rem;
+    left: 14rem;
+}
+
+#hero-section h1  {
+    font-size: 3rem;
+    font-family: 'Alata', sans-serif;
+    line-height: 60px;
+    margin-bottom: 1.25rem;
+}
+
+#hero-section p {
+    margin-bottom: 2rem;
+
 }
