@@ -15,6 +15,9 @@ body {
 /* Navigation Bar */
 header {
     padding: 0.5rem 8rem;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 nav {
