@@ -90,6 +90,34 @@ nav a {
     border-radius: 25px;
 }
 
+/* Items */
+.item-container {
+    /* border: 1px solid black; */
+    width: 15rem;
+    height: 280px;
+    display: inline-block;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.item-image {
+    width: 100%;
+}
+
+.item-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.item-description {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
 /* Cake Section */
 #cake-section {
     height: 43.75rem;
