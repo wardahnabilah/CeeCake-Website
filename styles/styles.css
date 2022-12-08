@@ -67,6 +67,11 @@ nav a {
     margin-left: 2rem;
 }
 
+/* Main */
+main {
+    padding-bottom: 7rem;
+}
+
 /* Hero Section */
 #hero-section {
     height: 43.75rem;
@@ -173,4 +178,16 @@ nav a {
 #cake-section .item-image {
     height: 180px;
     object-fit: cover;
+}
+
+/* Footer */
+footer {
+    height: 6rem;
+    background-color: rgba(96, 117, 168, 0.5);
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    padding: 2rem 0;
 }
