@@ -109,6 +109,7 @@ main {
     background-color: rgb(96, 117, 168);
     color: rgb(255, 255, 255);
     border-radius: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-button:hover, .item-button:hover {
