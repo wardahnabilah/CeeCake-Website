@@ -117,13 +117,14 @@ nav a {
 
 .item-container {
     width: 15rem;
-    height: 17.5rem;
+    height: 20rem;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 2px 4px 6px rgba(96, 117, 168, 0.8);
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
     margin: 0 1rem 2rem;
+    position: relative;
 }
 
 .item-image {
@@ -143,6 +144,21 @@ nav a {
     color: rgba(0, 0, 0, 0.7);
 }
 
+.item-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 4rem;
+    position: absolute;
+    left: 2.125rem;
+    right: 2.125rem;
+    bottom: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color: rgb(96, 117, 168);
+    color: rgb(255, 255, 255);
+}
+
 .all-items-background{
     /* height: 43.75rem; */
     background-image: url('../images/background/background-image-2.png');
@@ -158,5 +174,3 @@ nav a {
     height: 180px;
     object-fit: cover;
 }
-
-/* Cookie */
