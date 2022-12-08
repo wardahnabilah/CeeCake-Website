@@ -67,6 +67,10 @@ nav a {
     margin-left: 2rem;
 }
 
+nav a:hover {
+    color: rgb(96, 117, 168);
+}
+
 /* Main */
 main {
     padding-bottom: 7rem;
@@ -105,6 +109,10 @@ main {
     background-color: rgb(96, 117, 168);
     color: rgb(255, 255, 255);
     border-radius: 25px;
+}
+
+.hero-button:hover, .item-button:hover {
+    background-color: rgba(96, 117, 168, 0.8);
 }
 
 a {
