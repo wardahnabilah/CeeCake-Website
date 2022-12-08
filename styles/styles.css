@@ -107,6 +107,10 @@ main {
     border-radius: 25px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Cake, Bread, Cookie Section */
 
 /* Items */
