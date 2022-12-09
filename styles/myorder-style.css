@@ -1,0 +1,10 @@
+/* Main background */
+main {
+    background-image: url('../images/background/background-image-2.png');
+    background-position: top 0 right 0;
+}
+
+/* Order Form */
+label, input, textarea {
+    display: block;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon/ceecake-icon.png">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/myorder-style.css">
+    <title>CeeCake</title>
+</head>
+<body>
+    <header>
+        <img src="./images/logo/ceecake-logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li class="sublist-container">
+                    <a href="./index.html#cake-section">Cake</a>
+                    <ul class="sublist">
+                        <li><a href="./index.html#whole-cake">Whole Cake</a></li>
+                        <li><a href="./index.html#cupcake">Cupcake</a></li>
+                    </ul>
+                </li>
+                <li><a href="./index.html#bread-section">Bread</a></li>
+                <li class="sublist-container">
+                    <a href="./index.html#cookie-section">Cookie</a>
+                    <ul class="sublist">
+                        <li><a href="./index.html#cookie">Original</a></li>
+                        <li><a href="./index.html#macaron">Macaron</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">My Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="order-form">
+            <h2>Order Form</h2>
+            <div class="order-form">
+                <form method="POST">
+                    <label for="name">Receiver Name</label>
+                    <input type="text" id="receiver-name" name="receiver-name" required pattern="[a-z]">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="text" id="phone-number" name="phone-number">
+                    
+                    <!-- Order lists -->
+                    <label for="order-list">Order List</label>
+                    <textarea name="order-list" id="order-list" cols="30" rows="10"></textarea>
+                    <button>ORDER</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2022 CeeCake. All rights reserved</p>
+    </footer>
+</body>
+</html>
