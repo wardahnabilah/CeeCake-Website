@@ -59,3 +59,9 @@ button:hover {
     cursor: pointer;
 }
 
+button:disabled {
+    background-color: rgb(210, 210, 210);
+    color: rgb(160, 160, 160);
+    cursor: auto;
+    box-shadow: none;
+}
