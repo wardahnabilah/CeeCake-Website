@@ -52,11 +52,11 @@ button {
     padding: 0.5rem 1rem;
     border-radius: 12px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 button:hover {
     background-color: rgba(96, 117, 168, 0.8);
-    cursor: pointer;
 }
 
 button:disabled {
