@@ -41,10 +41,13 @@
                 <form method="POST">
                     <label for="name">Receiver Name</label>
                     <input class="input" type="text" id="receiver-name" name="receiver-name" placeholder="Receiver Name" pattern="[A-Za-z\s]{1,35}">
+                    <span id="name-notification" class="notification">Please enter receiver name</span>
                     <label for="address">Address</label>
                     <input class="input" type="text" id="address" name="address" placeholder="Address" pattern="[0-9A-Za-z\s\.\/]{1,35}">
+                    <span id="address-notification" class="notification">Please enter valid address</span>
                     <label for="phone-number">Phone Number</label>
                     <input class="input" type="text" id="phone-number" name="phone-number" placeholder="Phone Number" pattern="[0-9]{1,12}">
+                    <span id="phone-notification" class="notification">Please enter valid phone number</span>
 
                     <!-- Order lists -->
                     <label for="order-list">Order List</label>

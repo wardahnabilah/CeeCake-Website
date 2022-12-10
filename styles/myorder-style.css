@@ -69,3 +69,14 @@ button:disabled {
 .input:invalid {
     background-color: rgb(230, 132, 132);
 }
+
+.notification {
+    font-size: 0.9rem;
+    padding-left: 0.75rem;
+    color: rgb(200, 0, 0);
+    display: none;
+}
+
+.show {
+    display: inline;
+}
