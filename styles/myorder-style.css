@@ -65,3 +65,7 @@ button:disabled {
     cursor: auto;
     box-shadow: none;
 }
+
+.input:invalid {
+    background-color: rgb(230, 132, 132);
+}
