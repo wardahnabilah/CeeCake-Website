@@ -44,7 +44,7 @@ h3 {
 /* Header */
 
 header {
-    padding: 0.5rem 6.25rem 0.5rem 8rem;
+    padding: 0.5rem 6%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,7 +121,7 @@ main {
     width: 26rem;
     position: relative;
     top: 11rem;
-    left: 14rem;
+    left: 20%;
 }
 
 #hero-section h1  {
