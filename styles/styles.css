@@ -87,7 +87,7 @@ nav a:hover {
     overflow: hidden;
 }
 
-.sublist-container:hover {
+.sublist-container:hover, .appear {
     overflow: visible;
 }
 
@@ -237,6 +237,41 @@ footer p {
 
 /* Tablet screen */
 @media (max-width: 900px) {
+
+    /* Header */
+
+    /* Navigation Bar */
+    .burger-button {
+        position: relative;
+        top: 4px;
+        left: 53px;
+        margin-bottom: 18px;
+        width: max-content;
+        text-align: right;
+    }
+
+    .line {
+        height: 4.5px;
+        width: 35px;
+        margin: 1px 0;
+        border-radius: 6px;
+        background-color: rgb(96, 117, 168);
+    }
+
+    nav {
+        height: 1.5rem;
+        overflow: hidden;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    nav li {
+        padding: 0.6rem 0;
+    }
 
     /* Hero Section */
     #hero-section {
