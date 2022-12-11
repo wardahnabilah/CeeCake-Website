@@ -112,7 +112,7 @@ main {
 /* Hero Section */
 #hero-section {
     height: 43.75rem;
-    background-image: url('../images/background/background-image-1.png');
+    background-image: url('../images/background/background-image-1.jpg');
     background-size: cover;
     background-position: right -2.5rem bottom 0;
 }
@@ -208,7 +208,7 @@ a {
 
 .all-items-background{
     /* height: 43.75rem; */
-    background-image: url('../images/background/background-image-2.png');
+    background-image: url('../images/background/background-image-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right -2.5rem bottom 0;
