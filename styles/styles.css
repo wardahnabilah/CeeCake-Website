@@ -264,3 +264,11 @@ footer p {
         justify-content: center;
     }
 }
+
+/* Smartphone screen */
+@media (max-width: 500px) {
+    
+    .hero-text-container {
+        top: 15%;
+    }
+}
