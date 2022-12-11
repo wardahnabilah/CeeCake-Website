@@ -162,6 +162,10 @@ a {
     justify-content: flex-end;
 }
 
+.show-all{
+    display: none;
+}
+
 .left {
     justify-content: flex-start;
 }
@@ -189,6 +193,7 @@ a {
 
 .item-description {
     font-size: 1rem;
+    height: 2.4rem;
     line-height: 1.2rem;
     padding: 0 0.8rem;
     color: rgba(0, 0, 0, 0.7);
@@ -292,7 +297,8 @@ footer p {
 
     /* Cake, Bread, Cookie Section */
     h3, .right-align {
-        text-align: center;
+        margin-left: 3rem;
+        text-align: left;
     }
 
     .all-items-container, .left {
@@ -305,5 +311,17 @@ footer p {
     
     .hero-text-container {
         top: 15%;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .show-all {
+        display: block;
+        margin: 0.5rem 0 2rem;
+        text-align: center;
+        font-size: 1rem;
+        color: rgba(96, 117, 168, 0.8);
     }
 }
