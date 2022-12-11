@@ -120,8 +120,8 @@ main {
 .hero-text-container {
     width: 26rem;
     position: relative;
-    top: 11rem;
-    left: 20%;
+    top: 25%;
+    left: 18%;
 }
 
 #hero-section h1  {
@@ -136,13 +136,13 @@ main {
 }
 
 .hero-button {
-    width: max-content;
     padding: 0.8rem 1.6rem;
     font-size: 1rem;
     background-color: rgb(96, 117, 168);
     color: rgb(255, 255, 255);
     border-radius: 25px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: inline-block;
 }
 
 .hero-button:hover, .item-button:hover {
@@ -237,3 +237,30 @@ footer p {
     font-size: 1rem;
     padding: 2rem 0;
 }
+
+
+/* Smartphone screen */
+@media (max-width: 900px) {
+
+    #hero-section {
+        background-position: bottom 0 right 45%;
+    }
+
+    .hero-text-container {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        left: 0;
+        
+    }
+
+    .hero-button {
+        text-align: center;
+        font-weight: bold;
+    }   
+}
+
+/* Tablet screen */
+/* @media (max-width: 900px) {
+
+} */
