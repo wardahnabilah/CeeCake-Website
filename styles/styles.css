@@ -216,8 +216,8 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right -2.5rem bottom 0;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 /* Cupcake */
@@ -239,9 +239,10 @@ footer p {
 }
 
 
-/* Smartphone screen */
+/* Tablet screen */
 @media (max-width: 900px) {
 
+    /* Hero Section */
     #hero-section {
         background-position: bottom 0 right 45%;
     }
@@ -251,16 +252,19 @@ footer p {
         text-align: center;
         margin: 0 auto;
         left: 0;
-        
     }
 
     .hero-button {
         text-align: center;
         font-weight: bold;
-    }   
+    }
+
+    /* Cake, Bread, Cookie Section */
+    h3, .right-align {
+        text-align: center;
+    }
+
+    .all-items-container, .left {
+        justify-content: center;
+    }
 }
-
-/* Tablet screen */
-/* @media (max-width: 900px) {
-
-} */
