@@ -278,6 +278,10 @@ footer p {
         padding: 0.6rem 0;
     }
 
+    .sublist {
+        display: none;
+    }
+
     /* Hero Section */
     #hero-section {
         background-position: bottom 0 right 45%;
